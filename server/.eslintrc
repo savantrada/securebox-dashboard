@@ -1,0 +1,29 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "mocha": true
+    },
+    "extends": [
+      "airbnb"
+    ],
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import",
+      "chai-expect",
+      "prettier"
+    ],
+    "rules": {
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ]
+    }
+  }
+  

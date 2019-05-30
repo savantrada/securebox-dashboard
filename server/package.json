@@ -1,0 +1,46 @@
+{
+  "name": "securebox-dashboard-api",
+  "version": "1.0.0",
+  "description": "API for securebox dashboard",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "create-token": "node ./dist/create-token",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Archit <archit5793@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-chai-expect": "^2.0.1",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-mocha": "^5.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-shell": "^0.6.5",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "bcrypt": "3.0.3",
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "5.4.6",
+    "mqtt": "2.18.8",
+    "socket.io": "2.2.0",
+    "underscore": "1.9.1"
+  }
+}

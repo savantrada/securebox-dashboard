@@ -1,0 +1,50 @@
+
+.modal.audit-modal .modal-content {
+    width: 50vw;
+}
+.modal.audit-modal .box {
+    min-height: 60vh;
+    overflow: scroll;
+}
+.modal.audit-modal .columns{
+    height: inherit;
+}
+
+.modal.audit-modal .notification .table{
+    background: hsl(0, 0%, 21%);
+    border-radius: 5px;
+    color:#fff;
+    margin-top: 1em;
+}
+
+.modal.audit-modal .notification h3{
+    font-weight: bold;
+}
+
+.modal.audit-modal .notification .table .item-head{
+    font-weight: bold;
+}
+
+.modal.audit-modal .table td{
+    border:none;
+}
+
+.modal.audit-modal .table .dep-head{
+    font-weight: bold;
+}
+
+.modal.audit-modal .box h2.audit-heading{
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.modal.audit-modal .box h2{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 1em;
+}
+
+.modal.audit-modal .box p{
+    padding: 0 1em;
+}

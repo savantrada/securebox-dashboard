@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Trocchi');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body {
+    height: 100%;
+    background: #692db7;  /* fallback for old browsers */
+    font-family: "Quicksand";
+}
+
+header.navbar {
+    background: #692db7;
+    color: #fff;
+}
+
+header.navbar .navbar-brand a{
+    color: #fff;
+    font-family: "Trocchi";
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+
+header.navbar .navbar-menu a {
+    color: #fff;
+    font-family: "Quicksand";
+}
+
+header.navbar .navbar-menu a:hover {
+    color: #692db7;
+}
+
+header.navbar .navbar-menu a.button {
+    margin-top: 0.5em;
+    color: #692db7;
+}
+
+tr td{
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.modal .modal-content {
+    width: 70vw;
+}
+.modal .box {
+    height: 70vh;
+}
+.modal .columns{
+    height: inherit;
+}

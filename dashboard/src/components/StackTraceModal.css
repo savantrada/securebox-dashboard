@@ -1,0 +1,19 @@
+.modal.stackTrace-modal .modal-content {
+    width: 50vw;
+}
+.modal.stackTrace-modal .box {
+    min-height: 60vh;
+    overflow: scroll;
+}
+.modal.stackTrace-modal .columns{
+    height: inherit;
+}
+
+.modal.stackTrace-modal .box h3{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.modal.stackTrace-modal .box p{
+    padding: 0 1em;
+}
