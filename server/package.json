@@ -40,7 +40,7 @@
     "express": "^4.16.4",
     "mongoose": "5.4.6",
     "mqtt": "2.18.8",
-    "socket.io": "2.2.0",
+    "socket.io": "2.5.0",
     "underscore": "1.9.1"
   }
 }
